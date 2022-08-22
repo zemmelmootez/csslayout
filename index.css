@@ -1,0 +1,198 @@
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.header img{
+    width: 250px;
+}
+.header a{
+    color: grey;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.header div  a:first-child
+{
+    color: #00b39b;
+}
+.header a:hover{
+    color: #00b39b;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.butt{
+    color: grey;
+    border: 0;
+    background-color: transparent;
+}
+.menu-container{
+    position: relative;
+}
+.dropdown-list{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 25px rgb(191, 191, 191);
+    position: absolute;
+    display: none;
+    width: 120px;
+    right: 40px;
+}
+
+.menu-container:hover .dropdown-list{
+    display: flex ;
+}
+/*  intro */
+/* 100vw 100% width ecran */
+.introduction{
+
+
+    padding: 2vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.introduction img{
+    width: 25px;
+}
+.paragraphe-container{
+    display: flex;
+    padding: 0 10vw;
+    gap: 2vw;
+}
+.paragraphe-container p::selection{
+    background-color: #00b39b;
+    color: white;
+}
+.introduction span{
+    color: #00b39b;
+    font-size: 30px;
+    font-weight: 400;
+}
+.introduction p{
+ color: rgba(128, 128, 128, 0.91);
+
+}
+
+.card{
+    width: 20%;
+   
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+    /* top right bottom left */
+    padding: 2vw;
+    border-radius: 15px;
+    height: 300px;
+    justify-content: space-between;
+    
+}
+.card img{
+    width: 17px;
+    
+}
+.card span{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.card select{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+    text-decoration: underline;
+    justify-self: flex-end;
+}
+.card select option{
+    color: black;
+}
+.groupe-card{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.groupe-card div:nth-child(1){
+  background-color: #00b39b;
+}
+.groupe-card div:nth-child(2){
+    background-color: #2e1b8c;
+  }
+  .groupe-card div:nth-child(3){
+    background-color: rgb(18, 18, 18);
+  }
+
+  .sponsors{
+    display: flex;
+    padding: 0 5vw;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 2vw;
+    padding: 2vw 0;
+  }
+  .sponsors p{
+    width: 12%;
+    font-size: 20px;
+    color: #00b39b;
+  }
+
+svg path{
+    fill: grey;
+}
+svg path:hover{
+    fill: #00b39b;
+}
+svg{
+    width: 125px;
+}
+.sponsors div{
+    width: 60%;
+}
+
+.wahech{
+    background-color: #00b39b4e;
+    display: flex;
+    justify-content: center;
+    background-image: url("logo\ \(2\).png");
+    background-repeat: no-repeat;
+    background-position: left 250px;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    align-items: center;
+    gap: 1vw;
+}
+.duo-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2vw 0;
+    gap: 2vw;
+}
+.duo-2{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+   
+}
+.card-item img{
+    width: 30px;
+}
+.right{
+    display: flex;
+    padding: 2vw 0;
+    gap: 2vw;
+}
